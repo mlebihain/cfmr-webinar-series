@@ -1,0 +1,33 @@
+/* CFMR WEBSITE PALETTE — The eight official colors are defined only here.
+   Red (--cfmr-social-red) is reserved for social media elements and is not
+   used in the main design. These variables also theme session pages. */
+:root {
+  --cfmr-midnight: #131A3F;      /* Bleu nuit */
+  --cfmr-gray: #738189;          /* Gris */
+  --cfmr-marine: #273462;        /* Bleu marine */
+  --cfmr-sky: #8B9FE4;           /* Bleu ciel */
+  --cfmr-dark-orange: #C56F45;  /* Orange foncé */
+  --cfmr-social-red: #E25563;    /* Rouge — social media ONLY */
+  --cfmr-light-orange: #F19C48; /* Orange clair */
+  --cfmr-beige: #F9D9B3;         /* Beige */
+
+  /* Semantic aliases shared by homepage and session-page styles. */
+  --navy: var(--cfmr-midnight);
+  --blue: var(--cfmr-marine);
+  --rust: var(--cfmr-dark-orange);
+  --ink: var(--cfmr-midnight);
+  --muted: var(--cfmr-gray);
+  --white: #FFFFFF;
+  --paper: color-mix(in srgb, var(--cfmr-beige) 9%, white);
+  --canvas: color-mix(in srgb, var(--cfmr-gray) 12%, white);
+  --sand: color-mix(in srgb, var(--cfmr-beige) 48%, white);
+  --rule: color-mix(in srgb, var(--cfmr-gray) 24%, white);
+  --navy-soft: color-mix(in srgb, var(--cfmr-sky) 22%, white);
+  --navy-border: color-mix(in srgb, var(--cfmr-sky) 65%, var(--cfmr-marine));
+  --rust-soft: var(--cfmr-light-orange);
+  --blue-wash: color-mix(in srgb, var(--cfmr-sky) 13%, white);
+  --rust-wash: color-mix(in srgb, var(--cfmr-beige) 38%, white);
+  --text-secondary: color-mix(in srgb, var(--cfmr-midnight) 78%, var(--cfmr-gray));
+  --text-body: color-mix(in srgb, var(--cfmr-midnight) 83%, var(--cfmr-gray));
+  --page-width: 1120px;
+}

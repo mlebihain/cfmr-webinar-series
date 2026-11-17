@@ -1,0 +1,30 @@
+# CFMR SESSION DATA — Edit this file to update the session page.
+# Indent multi-line paragraphs by two spaces; store picture_names and ics_file in this folder.
+
+[session]
+title: Surface subsidence
+date: 08 February 2027
+time: 16:00 (CET)
+summary:
+ics_file: session_02.ics
+
+[overview]
+question: 
+description: 
+
+
+[speaker1]
+name: Dr. Mariam Joundi
+institution: GéoRessources, Université de Lorraine, CNRS
+title: Title soon
+abstract: Abstract will soon be available.
+short_bio: Short bio will soon be available. 
+picture_name: mariam_joundi.png
+
+[speaker2]
+name: Dr. Kristel Chanard
+institution: Université Paris Cité, IPGP, CNRS, IGN
+title: Title soon
+abstract: Abstract will soon be available.
+short_bio: Short bio will soon be available. 
+picture_name: kristel_chanard.png

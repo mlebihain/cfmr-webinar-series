@@ -1,0 +1,30 @@
+# CFMR SESSION DATA — Edit this file to update the session page.
+# Indent multi-line paragraphs by two spaces; store picture_names and ics_file in this folder.
+
+[session]
+title: Hydrogen in the subsurface: from rock processes to reservoir engineering
+date: 18 January 2027
+time: 16:00 (CET)
+summary:
+ics_file: session_01.ics
+
+[overview]
+question: How can we engineer and manage geological reservoirs for efficient and reliable hydrogen production and storage?
+description: Producing and storing hydrogen underground gives new challenges to reservoir engineering. In both cases, what happens in the reservoir during operation can change the properties of the rock and, in turn, affect reservoir performance. In geological hydrogen production, reactions between fluids and rocks generate hydrogen but can also change the permeability of the formation, making it more difficult to maintain fluid circulation and production. In underground hydrogen storage, repeated injection and withdrawal cycles change the stress conditions in the rock and can lead to permanent deformation over time. Understanding and predicting these changes is crucial for the long-term operation of these systems. This session brings together two complementary perspectives on these challenges: the engineering of reservoirs for geological hydrogen production and the study of how porous rocks deform under repeated loading.
+
+
+[speaker1]
+name: Dr. Zhaochen Xu
+institution: Navier, CNRS, Univ Eiffel, ENPC, IP Paris
+title: Time or Cycles? Creep–Fatigue Interaction in a Porous Limestone and Its Implications for Underground Hydrogen Storage
+abstract: Underground hydrogen storage in porous formations will subject reservoir rocks to repeated variations in effective stress over many years, which may alter their storage capacity and injectivity. Assessing these effects requires knowing whether the deformation accumulated during storage operations is controlled by time-dependent or by the cycle-induced processes. The two contributions act together and cannot be separated by conventional creep tests or cyclic loading tests alone. This webinar presents three creep–fatigue interaction tests on Saint-Maximin limestone, in which creep is stabilized under constant stress before the cycles start, so that cycle-dependent ratcheting can be distinguished from time-dependent creep. The tests were conducted under three distinct stress conditions: hydrostatic compaction, shear-enhanced compaction at constant deviatoric stress, and a path approaching the shear-induced dilation regime. Are “fatigue” and “cyclic creep” equivalent processes? Can conventional elasto-viscoplastic constitutive models adequately capture the mechanical response of reservoir rocks under cyclic loading? What are the dominant controls on cycle-induced deformation in porous rocks? This webinar will explore these questions based on recent experimental observations.
+short_bio: Zhaochen Xu is a postdoctoral researcher at Laboratoire Navier, École Nationale des Ponts et Chaussées, where he obtained his PhD in geomechanics in 2026, supervised by Prof. Jean Sulem and Dr. Philipp Braun. His research focuses on the hydro-mechanical behaviour of porous reservoir rocks in the context of underground hydrogen storage, in particular on their long-term response to cyclic variations in effective stress induced by storage operations. Combining laboratory experiments with constitutive modelling, he investigates creep–fatigue interactions, ratcheting and damage evolution, as well as the associated changes in porosity, permeability and ultrasonic wave velocities.
+picture_name: zhaochen_xu.png
+
+[speaker2]
+name: Dr. Florian Osselin
+institution: VEMA Hydrogen
+title: Engineered Mineral Hydrogen, a low-carbon solution for H2
+abstract: Abstract will soon be available.
+short_bio: Short bio will soon be available.
+picture_name: florian_osselin.png

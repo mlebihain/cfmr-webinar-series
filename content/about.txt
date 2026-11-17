@@ -1,0 +1,33 @@
+# CFMR WEBINAR SITE
+# This file is used by the homepage and EVERY individual session page.
+# For multi-line paragraphs, indent continuation lines by two spaces.
+
+[webinar]
+description:
+  The CFMR Webinar Series brings together different perspectives on topics related to rock mechanics. We want to encourage discussions between the rock mechanics community and researchers from other fields, comparing their methods and ways of approaching the same problems.
+
+  The webinars are also an opportunity for PhD students, early-career researchers, experienced researchers and engineers to exchange ideas. We hope to bring together the French rock mechanics community, including those working in France and French colleagues working abroad.
+newsletter_url: https://listes.services.cnrs.fr/wws/subscribe/cfmr-webinar
+youtube_url: 
+
+[organizer1]
+name: Lucille Carbillet
+institution: GéoRessources, Université de Lorraine, CNRS
+picture_name: lucille_carbillet.png
+short_bio: Lucille is researcher at GeoRessources and Assistant Professor at ENSG. Her research focuses on the mechanical behaviour of porous rocks and deformation processes in geological materials.
+
+[organizer2]
+name: Mathias Lebihain
+institution: Navier, CNRS, Univ Eiffel, ENPC, IP Paris
+picture_name: mathias_lebihain.png
+short_bio: Mathias is researcher at Navier Lab, and Associate Professor at ENPC. His work focuses on the impact of heterogeneities and multi-physics coupling on the fracture and friction of geomaterials.
+
+[cfmr]
+description:
+  The Comité Français de Mécanique des Roches (CFMR) was founded in 1967 to promote research in rock mechanics, rock physics and geotechnics, and to share its results.
+
+  The CFMR organizes regular technical meetings, bringing together researchers, engineers and industry professionals to present their work and discuss scientific and practical problems. It also supports young researchers through the Pierre Londe Prize, awarded each year for an outstanding PhD thesis. 
+
+  The CFMR is the French national group of the International Society for Rock Mechanics (ISRM) and maintains close links with the international rock mechanics community. Researchers, engineers, students and practitioners are welcome to join the association. When applying for membership, you can list Lucille Carbillet and Mathias Lebihain as your sponsors (parrains).
+website_url: https://www.cfmr-roches.org/
+membership_url: https://www.cfmr-roches.org/user/register

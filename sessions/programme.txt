@@ -1,0 +1,10 @@
+# Session folders in homepage display order.
+# To add a session, copy a session folder, edit its session.txt and add its folder name here.
+# The entries under [previous] is displayed as the previous webinars.
+
+[upcoming]
+session_01
+session_02
+session_03
+
+[previous]

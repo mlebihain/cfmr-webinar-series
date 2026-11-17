@@ -1,0 +1,195 @@
+/* CFMR Webinar Series — editorial structure, original navy/orange style.
+   Typeface: Arial throughout. All colors come from theme.css. */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin:0; font-family: Arial, Helvetica, sans-serif; font-size:15px; line-height:1.6; color:var(--ink); background:var(--canvas); -webkit-font-smoothing: antialiased; }
+a { color:inherit; }
+a:hover { color:var(--rust); }
+a:focus-visible,button:focus-visible { outline:3px solid var(--rust-soft); outline-offset:3px; }
+button { font:inherit; }
+h1,h2,h3,p { margin-top:0; }
+.site-page { width:min(calc(100% - 44px),1160px); margin:24px auto 28px; background:var(--paper); box-shadow:0 8px 34px color-mix(in srgb, var(--navy) 10%, transparent); overflow:hidden; }
+.skip-link { position:absolute; z-index:4; top:-90px; left:20px; padding:10px 15px; background:var(--white); color:var(--navy); }
+.skip-link:focus { top:8px; }
+.site-header { background:var(--navy); color:var(--white); position:relative; }
+.site-header:before { content:""; position:absolute; top:0; left:0; right:0; height:5px; background:var(--rust); }
+.header-inner { display:flex; align-items:center; justify-content:space-between; gap:32px; min-height:111px; padding:18px 54px; border-bottom:1px solid color-mix(in srgb, var(--cfmr-sky) 26%, transparent); }
+.identity { display:flex; align-items:center; min-width:0; gap:17px; text-decoration:none; color:var(--white); }
+.identity:hover { color:var(--white); }
+.logo-box { width:76px; height:76px; background:transparent; display:grid; place-items:center; flex:none; padding:0; }
+.logo-box img { width:100%; height:100%; object-fit:contain; }
+.identity-text { display:flex; flex-direction:column; gap:4px; min-width:0; }
+.identity-text strong { font-size:21px; letter-spacing:-.018em; line-height:1.15; font-weight:700; }
+.identity-slash { color:var(--rust-soft); padding-inline:5px; font-weight:400; }
+.identity-text small { color:var(--navy-soft); font-size:11px; letter-spacing:.005em; line-height:1.4; }
+.primary-nav { display:flex; flex-wrap:wrap; justify-content:flex-end; align-items:center; gap:22px; }
+.primary-nav a { color:var(--navy-soft); font-size:13px; font-weight:600; text-decoration:none; white-space:nowrap; }
+.primary-nav a:hover { color:var(--white); text-decoration:underline; text-decoration-color:var(--rust-soft); text-underline-offset:5px; }
+.introduction { display:grid; grid-template-columns:minmax(0, .94fr) minmax(0, 1.06fr); gap:55px; padding:45px 54px 54px; }
+.overline { color:var(--rust-soft); margin:0 0 15px; text-transform:uppercase; font-weight:700; font-size:11px; letter-spacing:.105em; }
+h1 { color:var(--white); font-size:clamp(36px,4.4vw,54px); line-height:1.09; letter-spacing:-.035em; font-weight:700; margin:0; }
+.title-rule { display:block; margin-top:21px; width:64px; height:4px; background:var(--rust); }
+.introduction-copy { padding-top:3px; font-size:15px; line-height:1.73; color:var(--navy-soft); }
+.introduction-copy p { margin:0 0 15px; }
+.introduction-copy p:last-child { margin:0; }
+.introduction-copy strong { color:var(--white); }
+.main-content { padding:0 54px; }
+.content-section { padding:49px 0 55px; border-bottom:1px solid var(--rule); scroll-margin-top:15px; }
+.section-heading { display:flex; align-items:baseline; justify-content:space-between; gap:25px; margin:0 0 24px; }
+.section-heading h2 { font-size:29px; line-height:1.2; font-weight:700; letter-spacing:-.032em; color:var(--navy); margin:0; }
+.section-heading > p { color:var(--muted); font-size:13px; max-width:350px; line-height:1.55; margin:0; }
+.session-list { border-top:3px solid var(--navy); }
+/* Editorial sessions: the theme and two speaker identities have their own visual hierarchy. */
+.session-row { display:grid; grid-template-columns:132px minmax(0,1fr) 108px; gap:24px; align-items:start; padding:31px 0 33px; border-bottom:1px solid var(--rule); }
+.session-date { display:flex; flex-direction:column; gap:7px; padding-top:4px; }
+.date-kicker { color:var(--rust); font-size:12px; font-weight:700; }
+.session-date strong { color:var(--navy); font-size:14px; line-height:1.4; }
+.date-sub { color:var(--muted); font-size:12px; }
+.session-description h3 { margin:0; font-size:24px; color:var(--navy); letter-spacing:-.024em; line-height:1.23; }
+.session-description h3 a { text-decoration:none; }
+.session-description h3 a:hover { text-decoration:underline; text-underline-offset:4px; }
+.session-row-summary { color:var(--text-secondary); font-size:13px; line-height:1.6; margin:12px 0 0; }
+.speaker-pair { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:15px 19px; margin-top:20px; }
+.speaker-person { display:flex; align-items:center; min-width:0; gap:12px; }
+.speaker-person img { display:block; flex:none;width: 90px; height: 104px; object-fit:cover; object-position:center 20%; background:var(--sand); border:1px solid var(--rule); }
+.speaker-person div { min-width:0; }
+.speaker-person strong { display:block; color:var(--navy); font-size:17px; line-height:1.2; font-weight:700; margin-bottom:6px; }
+.speaker-person span { display:block; color:var(--muted); font-size:12px; line-height:1.4; }
+.session-link-cell { text-align:right; align-self:end; padding-bottom:3px; }
+.row-link { display:inline-flex; align-items:center; gap:7px; color:var(--blue); font-size:13px; font-weight:700; text-decoration:none; white-space:nowrap; border-bottom:2px solid var(--rust); padding-bottom:4px; }
+.row-link:hover { color:var(--rust); }
+.row-link span { font-size:17px; line-height:1; }
+.demo-caption { color:var(--muted); font-size:11px; margin:11px 0 0; }
+/* Calendar block: same integration and functionality as the user's supplied HTML. */
+.calendar-section { padding-top:43px; padding-bottom:43px; }
+.calendar-content { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:36px; align-items:center; background:var(--blue-wash); border-left:4px solid var(--rust); padding:28px 31px; }
+.calendar-intro { display:flex; gap:17px; align-items:flex-start; }
+.calendar-icon { display:grid; place-items:center; width:50px; height:50px; flex:none; background:var(--navy); color:var(--white); }
+.calendar-icon svg { width:26px; height:26px; }
+.calendar-intro h2 { color:var(--navy); font-size:22px; letter-spacing:-.028em; line-height:1.25; margin:0 0 8px; }
+.calendar-intro p { color:var(--text-secondary); font-size:13px; line-height:1.55; margin:0; }
+.calendar-intro .calendar-note { margin-top:10px; font-size:11px; color:var(--muted); }
+.calendar-actions { display:grid; grid-template-columns:1fr 1fr; gap:9px; }
+.calendar-action { display:flex; align-items:center; justify-content:space-between; gap:12px; min-height:45px; padding:10px 11px; font:700 12px/1.4 Arial,Helvetica,sans-serif; color:var(--blue); background:var(--white); border:1px solid var(--rule); text-decoration:none; text-align:left; cursor:pointer; }
+.calendar-action span { color:var(--rust); font-size:15px; }
+.calendar-action:hover { background:var(--paper); border-color:var(--blue); }
+.calendar-action-outlook { grid-column:1/-1; }
+.cfmr-feedback { margin:11px 0 0; padding:9px 11px; border-left:2px solid var(--rust); background:var(--rust-wash); color:var(--navy); font-size:12px; line-height:1.45; overflow-wrap:anywhere; }
+.cfmr-feedback:empty { display:none; }
+/* Shared two-column About the webinar section: same positioning as About CFMR.
+   Beige background, no navy horizontal rule, logo and title stacked on the left. */
+.about-webinar-section {
+  display:grid;
+  grid-template-columns:240px minmax(0,1fr);
+  align-items:start;
+  gap:38px;
+  background:var(--paper);
+  padding:46px 31px 51px;
+  margin:12px -31px 0;
+  border:0;
+}
+.about-webinar-heading { min-width:0; }
+.webinar-about-logo { display:block; width:148px; height:auto; max-width:100%; margin:0 0 16px; }
+.about-webinar-title-break { display:block; }
+.about-webinar-heading h2 { color:var(--navy); margin:0 0 14px; font-size:29px; letter-spacing:-.032em; line-height:1.2; }
+.about-webinar-description { color:var(--text-body); font-size:14px; line-height:1.7; margin:0 0 25px; }
+.webinar-organizers { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+.webinar-organizer { display:grid; grid-template-columns:86px minmax(0,1fr); gap:13px; align-items:start; }
+.webinar-organizer-photo { display:block; width:86px; height:103px; object-fit:cover; object-position:center 20%; background:var(--blue-wash); border:1px solid var(--rule); }
+.webinar-photo-placeholder { display:grid; place-items:center; padding:8px; text-align:center; color:var(--muted); font-size:11px; line-height:1.4; }
+.webinar-organizer-detail h3 { color:var(--navy); font-size:17px; line-height:1.25; margin:0 0 4px; }
+.webinar-organizer-institution { color:var(--blue); font-size:12px; line-height:1.4; font-weight:700; margin:0 0 7px; }
+.webinar-organizer-bio { color:var(--text-secondary); font-size:12px; line-height:1.6; margin:0; }
+.about-actions { display:flex; align-items:center; flex-wrap:wrap; gap:12px; margin-top:27px; }
+.about-action {
+  display:inline-flex; align-items:center; justify-content:center;
+  min-height:45px; padding:11px 16px; border:1px solid var(--rust);
+  font-size:13px; font-weight:700; line-height:1.4; text-decoration:none;
+  text-align:center; white-space:normal;
+}
+.about-action-primary { background:var(--rust); color:var(--white); }
+.about-action-primary:not(.about-action-disabled):hover { background:var(--navy); color:var(--white); border-color:var(--navy); }
+.about-action-secondary { background:var(--white); color:var(--navy); border-color:var(--cfmr-gray); }
+.about-action-secondary:not(.about-action-disabled):hover { background:var(--blue-wash); color:var(--navy); border-color:var(--navy); }
+.about-action-disabled { cursor:not-allowed; }
+.about-section { display:grid; grid-template-columns:240px minmax(0,1fr); gap:38px; background:var(--rust-wash); padding:46px 31px 51px; margin:12px -31px 0; border-bottom:none; }
+.cfmr-about-logo { display:block; width:148px; height:auto; max-width:100%; margin:0 0 16px; }
+.about-heading h2 { color:var(--navy); margin:0 0 14px; font-size:29px; letter-spacing:-.032em; }
+.about-copy p { color:var(--text-secondary); margin:0 0 14px; font-size:14px; line-height:1.66; }
+.about-copy strong { color:var(--navy); }
+.site-footer { display:flex; justify-content:space-between; align-items:center; gap:20px; padding:23px 54px; background:var(--navy); color:var(--navy-soft); }
+.site-footer p { margin:0; font-size:12px; }
+.site-footer div { display:flex; gap:20px; }
+.site-footer a { color:var(--navy-soft); text-decoration:none; white-space:nowrap; font-size:12px; }
+.site-footer a:hover { color:var(--white); }
+@media(max-width:940px){
+  .header-inner { padding-inline:34px; }
+  .introduction { padding:42px 34px 46px; gap:30px; }
+  .main-content { padding-inline:34px; }
+  .session-row { grid-template-columns:112px minmax(0,1fr); gap:21px; }
+  .session-link-cell { grid-column:2; text-align:left; padding:0; }
+  .speaker-pair { gap:13px; }
+  .speaker-person { gap:10px; }
+  .speaker-person img { width:68px; height:80px; }
+  .speaker-person strong { font-size:16px; }
+  .calendar-content { gap:20px; padding:24px; }
+  .about-webinar-section { grid-template-columns:200px minmax(0,1fr); gap:22px; margin-inline:-14px; }
+  .webinar-organizers { gap:18px; }
+  .webinar-organizer { grid-template-columns:72px minmax(0,1fr); gap:10px; }
+  .webinar-organizer-photo { width:72px; height:90px; }
+  .organizer-photo { width:85px; }
+  .about-section { grid-template-columns:200px minmax(0,1fr); gap:22px; margin-inline:-14px; }
+  .site-footer { padding-inline:34px; }
+}
+@media(max-width:720px){
+  .site-page { margin:0; width:100%; box-shadow:none; }
+  .header-inner { flex-direction:column; align-items:stretch; min-height:0; gap:14px; padding:21px 22px; }
+  .primary-nav { justify-content:flex-start; gap:18px; }
+  .primary-nav a { font-size:12px; }
+  .introduction { display:block; padding:36px 22px 42px; }
+  .introduction-copy { margin-top:23px; max-width:600px; }
+  .main-content { padding:0 22px; }
+  .content-section { padding:40px 0 45px; }
+  .section-heading { display:block; }
+  .section-heading > p { margin-top:9px; }
+  .session-row { grid-template-columns:95px minmax(0,1fr); gap:17px; }
+  .session-description h3 { font-size:22px; }
+  .speaker-pair { grid-template-columns:1fr; gap:14px; margin-top:19px; }
+  .speaker-person img { width:67px; height:76px; }
+  .speaker-person strong { font-size:16px; }
+  .calendar-content { grid-template-columns:1fr; }
+  .about-webinar-section { grid-template-columns:1fr; gap:12px; margin-inline:-10px; padding:35px 20px; }
+  .webinar-organizers { gap:18px; }
+  .about-section { grid-template-columns:1fr; margin-inline:-10px; padding:35px 20px; gap:12px; }
+  .site-footer { padding:21px 22px; }
+}
+@media(max-width:520px){
+  .identity-text strong { font-size:19px; }
+  .logo-box { width:58px; height:58px; }
+  .identity-text small { font-size:10px; }
+  .session-row { grid-template-columns:1fr; gap:12px; padding:24px 0 29px; }
+  .session-date { gap:3px; }
+  .session-description h3 { font-size:23px; }
+  .speaker-pair { grid-template-columns:1fr; gap:13px; }
+  .speaker-person img { width:65px; height:74px; }
+  .session-link-cell { grid-column:1; margin-top:4px; }
+  .calendar-intro { gap:12px; }
+  .calendar-icon { width:43px; height:43px; }
+  .calendar-actions { grid-template-columns:1fr; }
+  .calendar-action-outlook { grid-column:1; }
+  .webinar-organizers { grid-template-columns:1fr; gap:19px; }
+  .webinar-organizer { grid-template-columns:83px minmax(0,1fr); }
+  .webinar-organizer-photo { width:83px; height:101px; }
+  .about-actions { align-items:stretch; flex-direction:column; }
+  .about-action { width:100%; }
+  .site-footer { align-items:flex-start; flex-direction:column; }
+}
+@media(prefers-reduced-motion: reduce){ html { scroll-behavior:auto; } }
+
+.session-loading,.session-load-error { font-size:13px; color:var(--muted); padding:22px 0; margin:0; }
+.session-load-error { color:var(--rust); }
+
+/* Remove divider before About the webinar on homepage */
+#previous {
+  border-bottom: none;
+}

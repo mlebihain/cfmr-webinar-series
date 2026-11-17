@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- CFMR build: shared-about -->
+  <meta name="cfmr-build" content="shared-about">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CFMR Webinar Series — upcoming and past sessions, speaker information, calendar subscription and information about the webinar and CFMR.">
+  <title>CFMR Webinar Series · Comité Français de Mécanique des Roches</title>
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script defer src="assets/js/config.js"></script>
+  <script defer src="assets/js/site.js"></script>
+  <script defer src="assets/js/session-data.js"></script>
+  <script defer src="assets/js/home-sessions.js?v=20261116"></script>
+  <script defer src="assets/js/shared-about.js?"></script>
+</head>
+<body>
+<div class="site-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="identity" href="./" aria-label="CFMR Webinar Series homepage">
+        <span class="logo-box"><img src="assets/images/webinar-logo.png" alt="CFMR Webinar Series logo" width="72" height="72"></span>
+        <span class="identity-text"><strong>CFMR Webinar Series</strong><small>Sponsored by the Comité Français de Mécanique des Roches</small></span>
+      </a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="#upcoming">Sessions</a><a href="#calendar">Calendar</a><a href="#about-webinar">About the webinar</a><a href="#about">About CFMR</a>
+      </nav>
+    </div>
+    <!-- 1. Short description, editorial two-column structure -->
+    <section class="introduction" aria-labelledby="page-title">
+      <div class="introduction-heading">
+        <h1 id="page-title">CFMR Webinar Series</h1>
+        <span class="title-rule" aria-hidden="true"></span>
+      </div>
+      <div class="introduction-copy">
+        <p>The <strong>Comité Français de Mécanique des Roches (CFMR)</strong> is a French association founded in 1967 to support research and share knowledge in rock mechanics, rock physics and geotechnics.</p>
+        <p>Our webinars bring together researchers, academics, and engineers to discuss their work, share experiences and explore current questions in rock mechanics.</p>
+      </div>
+    </section>
+  </header>
+
+  <main id="main" class="main-content">
+    <!-- 2. Upcoming: the editorial rows of version two, with speaker photographs -->
+    <section class="content-section" id="upcoming" aria-labelledby="upcoming-title">
+      <div class="section-heading"><h2 id="upcoming-title">Upcoming sessions</h2><p>Discover our programme and save the date!</p></div>
+      <noscript><p>Enable JavaScript to load the session listings.</p></noscript>
+      <div class="session-list" id="upcoming-list"><p class="session-loading" role="status">Loading upcoming webinars…</p></div>
+      <!-- <p class="demo-caption">This is a small comment below the sessions.</p> -->
+    </section>
+
+    <!-- 3. Original supplied calendar subscription controls -->
+    <section class="content-section calendar-section" id="calendar" aria-labelledby="calendar-title">
+      <div class="calendar-content">
+        <div class="calendar-intro">
+          <span class="calendar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18M8 15h3M8 18h3"/></svg></span>
+          <div><h2 id="calendar-title">Never miss a CFMR Webinar</h2><p>Subscribe to the webinar calendar to receive new sessions and schedule updates automatically.</p>
+          <!-- <p class="calendar-note">Set the calendar to daily synchronization to follow us!</p> -->
+          </div>
+        </div>
+        <div class="calendar-tools">
+          <div class="calendar-actions" aria-label="Calendar subscription options">
+            <a class="calendar-action" id="cfmr-google" href="#calendar">Google Calendar <span aria-hidden="true">↗</span></a>
+            <a class="calendar-action" id="cfmr-apple" href="#calendar">Apple Calendar <span aria-hidden="true">↗</span></a>
+            <button class="calendar-action calendar-action-outlook" type="button" id="cfmr-outlook">Copy subscription URL for Outlook <span aria-hidden="true">↗</span></button>
+          </div>
+          <p class="cfmr-feedback" id="cfmr-feedback" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Previous session -->
+    <section class="content-section" id="previous" aria-labelledby="previous-title">
+      <div class="section-heading"><h2 id="previous-title">Previous session</h2><p>More information and videos of the previous sessions.</p></div>
+      <div class="session-list" id="previous-list"><p class="session-loading" role="status">Loading the previous webinar…</p></div>
+    </section>
+
+    <!-- Sections 5–6 are populated identically on every page from content/about.txt. -->
+    <div id="shared-about" data-site-root="./">
+      <p class="session-loading" role="status">Loading information about the webinar and CFMR…</p>
+    </div>
+  </main>
+  <footer class="site-footer"><p>CFMR Webinar Series · Sponsored by the Comité Français de Mécanique des Roches</p><div><a href="#top">Back to top ↑</a><a href="https://www.cfmr-roches.org/" target="_blank" rel="noopener noreferrer">cfmr-roches.org ↗</a></div></footer>
+</div>
+</body>
+</html>

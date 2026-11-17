@@ -1,0 +1,31 @@
+# CFMR SESSION DATA — Edit this file to update the session page.
+# Indent multi-line paragraphs by two spaces; store picture_names and ics_file in this folder.
+
+[session]
+title: Rocks at the brittle-ductile transition
+date: 15 March 2027
+time: 16:00 (CET)
+summary:
+ics_file: session_03.ics
+
+[overview]
+question: 
+description: 
+
+
+[speaker1]
+name: Dr. Gabriel Meyer
+institution: Njord Centre, University of Oslo
+title: The Seismic Cycle at the Brittle–Ductile Transition
+abstract: Tectonic plate motion is accommodated by a spectrum of deformation mechanisms, ranging from localized fault slip in the upper crust to distributed ductile flow at greater depths. The transition between these end-member behaviors is expected to occur over a depth interval, whose position and extent depend on rock rheology and deformation conditions. This transition, the brittle–ductile transition (BDT) is traditionally regarded as the lower boundary of the seismogenic crust. Yet geological and geophysical observations suggest that seismic slip and ductile deformation can coexist at depth, challenging the notion of a sharp boundary between seismic and aseismic deformation. How tectonic strain is partitioned between these competing mechanisms throughout the seismic cycle, remains, to this day, poorly understood.
+  Here, we investigate this question through triaxial experiments on pre-faulted Carrara marble, combining measurements of fault slip and local strain to quantify the evolution of on-fault and off-fault deformation throughout complete laboratory seismic cycles (stick-slips). We show that, as deformation becomes increasingly distributed, dynamic fault slip progressively coexists with aseismic fault creep and ductile deformation of the surrounding rock, even under constant environmental conditions. Rather than marking the termination of seismicity, the BDT thus emerges as a deformation regime in which the seismic cycle is progressively reorganized through the redistribution of tectonic strain between faults and their surroundings. These findings highlight the role of strain partitioning in controlling how tectonic plate motion is accommodated at depth.
+short_bio: Gabriel Meyer is a Marie Skłodowska-Curie postdoctoral fellow at the Njord Centre, University of Oslo, Norway. He obtained his PhD in rock mechanics from University College London in 2020 and subsequently worked as a postdoctoral researcher at EPFL in Switzerland (2020–2026). His research focuses on rock deformation and fluid flow under high-pressure and high-temperature conditions. In particular, he investigates the conditions governing the brittle–ductile transition in the Earth's crust, and the associated changes in microscale deformation mechanisms, from microcracking to crystal plasticity. See his website at https://www.gabrielgmeyer.com
+picture_name: gabriel_meyer.png
+
+[speaker2]
+name: Dr. Sarah Incel
+institution: GFZ Helmholtz Centre for Geosciences
+title: Quantification of plastic deformation mechanisms in anorthite using micropillar compression
+abstract: Plagioclase is the most abundant mineral group of the crust and will therefore either control or strongly influence crustal rheology. Yet, we still know little about crystal plasticity in plagioclase, as brittle deformation dominates under most laboratory conditions. To overcome past challenges in quantifying crystal plastic deformation in plagioclase, we used micropillar compression to quantify the strength of specific slip systems as well as the stresses necessary for mechanical twinning in anorthite Pillars with diameters of around 1 µm were milled from three differently oriented cuts of the same anorthite single crystals using focused-ion beam. Uniaxial deformation of 36 pillars in total was then conducted inside a scanning-electron microscope under either 25, 300, or 800 °C. Most pillars were deformed with a constant displacement rate that corresponds to a strain rate of around 10⁻³ s⁻¹ on the pillars. In addition, under 800 °C, pillars were deformed with strain rates of 10⁻² or 10⁻¹ s⁻¹, respectively, to test the sensitivity of the deformation-controlling mechanism to changes in strain rate. Pillars deform in a plastic manner under all temperatures and strain rates tested and yield at different stresses depending on their orientation. Variations in strain rate of one to two orders of magnitude seem to have no influence on pillar strength. The critical resolved shear stress (CRSS) for mechanical (pericline) twinning lies at around 300 MPa and is, as expected from previous studies on other materials, insensitive to changes in temperature or strain rate. Pillar deformation in crystals oriented to activate slip exhibits no changes in yield stress with changes in strain rate over two orders of magnitude, but a strong decrease in yield stress with increasing temperature. Among the deformation mechanisms active during pillar deformation, twinning is the easiest under the applied conditions, followed by slip on {011}⟨100⟩ regardless of temperature. Slip on {011}⟨0-11⟩ or {0-11}⟨011⟩ is consistently the hardest mechanism to activate in our anorthite pillars.
+short_bio: Sarah Incel is a researcher and head of the Rheology Group at the GFZ Helmholtz Centre for Geosciences in Potsdam, Germany. She obtained her PhD from École Normale Supérieure in Paris in 2017 and subsequently held research positions at the University of Oslo (2017-2019), Ruhr University Bochum (2019-2022), and Imperial College London (2022-2024). Her research combines experimental rock mechanics and petrology to investigate the processes controlling rock deformation under geological conditions. In particular, she is interested in how processes that take place over a few nano- to millimetres such as metamorphic reactions and crystal plastic deformation may influence the deformation behaviour of rocks at much larger spatial scales, e.g., metre to kilometre scale. 
+picture_name: sarah_incel.png
